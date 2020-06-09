@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="yaml"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\cmake\;CMake Files\..\..\..\..\..\usr\local\share\cmake\yaml-cpp\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yaml">
+				<Option output="/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/yaml" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 yaml"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yaml/fast">
+				<Option output="/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/yaml" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 yaml/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sooraj/CSE/SeisSol/yaml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sooraj/CSE/SeisSol/yaml/main.cpp">
+			<Option target="yaml"/>
+		</Unit>
+		<Unit filename="/home/sooraj/CSE/SeisSol/yaml/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sooraj/CSE/SeisSol/yaml/../../../../../usr/local/share/cmake/yaml-cpp/yaml-cpp-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/sooraj/CSE/SeisSol/yaml/../../../../../usr/local/share/cmake/yaml-cpp/yaml-cpp-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/sooraj/CSE/SeisSol/yaml/../../../../../usr/local/share/cmake/yaml-cpp/yaml-cpp-targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/home/sooraj/CSE/SeisSol/yaml/../../../../../usr/local/share/cmake/yaml-cpp/yaml-cpp-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\yaml-cpp\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
