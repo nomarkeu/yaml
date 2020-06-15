@@ -9,12 +9,6 @@
 /home/sooraj/CSE/SeisSol/yaml/main.cpp
 iostream
 -
-fstream
--
-map
--
-cassert
--
 yaml-cpp/yaml.h
 /home/sooraj/CSE/SeisSol/yaml/yaml-cpp/yaml.h
 

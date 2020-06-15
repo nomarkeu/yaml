@@ -1,7 +1,4 @@
 #include <iostream>
-#include <fstream>
-#include <map>
-#include <cassert>
 #include "yaml-cpp/yaml.h"
 
 namespace equations{
@@ -76,34 +73,7 @@ namespace AbortCriteria{
 
 int main() {
 
-    //YAML::Emitter out;
     YAML::Node config = YAML::LoadFile("parameters.yaml");
-
-    /*
-    if (config["equations"]) {
-        std::cout << "equations:\n" << config["equations"]<< "\n";
-    }
-
-    const std::string username = config["name"].as<std::string>();
-    std::cout<<username<<std::endl;
-
-    YAML::Node node = YAML::Load("[1, 2, 3]");
-    assert(node.Type() == YAML::NodeType::Sequence);
-    assert(node.IsSequence());
-
-    YAML::Node primes = YAML::Load("[2, 3, 5, 7, 11]");
-    for (std::size_t i=0;i<primes.size();i++) {
-        std::cout << primes[i].as<int>() << "\n";
-    }
-
-    primes.push_back(13);
-    assert(primes.size() == 6);
-
-    YAML::Node lineup = YAML::Load("{1B: Prince Fielder, 2B: Rickie Weeks, LF: Ryan Braun}");
-    for(YAML::const_iterator it=lineup.begin();it!=lineup.end();++it) {
-        std::cout << "Playing at " << it->first.as<std::string>() << " is " << it->second.as<std::string>() << "\n";
-    } */
-
 
     equations::MaterialFileName = config["equations"]["MaterialFileName"].as<std::string>();
     equations::Plasticity = config["equations"]["Plasticity"].as<int>();
@@ -164,42 +134,5 @@ int main() {
     std::cout<<"OutputFile: "<<Output::OutputFile<<std::endl;
     std::cout<<"iOutputMask: "<<Output::iOutputMask<<std::endl;
 
-
-    /*
-    out << YAML::BeginSeq;
-    out << "eggs";
-    out << "bread";
-    out << "milk";
-    out << YAML::EndSeq;
-
-    out << YAML::BeginMap;
-    out << YAML::Key << "name";
-    out << YAML::Value << "Ryan Braun";
-    out << YAML::Key << "position";
-    out << YAML::Value << "LF";
-    out << YAML::EndMap;
-
-    out << YAML::BeginMap;
-    out << YAML::Key << "name";
-    out << YAML::Value << "Barack Obama";
-    out << YAML::Key << "children";
-    out << YAML::Value << YAML::BeginSeq << "Sasha" << "Malia" << YAML::EndSeq;
-    out << YAML::EndMap;
-     */
-/*
-    out << YAML::BeginMap;
-        out << YAML::Key << "equations";
-        out << YAML::Value;
-        out << YAML::BeginMap;
-            out << YAML::Key << "MaterialFileName" << YAML::Value << "material.yaml";
-            out << YAML::Key << "Plasticity" << YAML::Value << "1";
-            out << YAML::Key << "Tv" << YAML::Value << "0.03";
-        out << YAML::EndMap;
-    out << YAML::EndMap;
-
-
-    std::cout << out.c_str(); // prints "Hello, World!"
-
-    */
     return 0;
 }
